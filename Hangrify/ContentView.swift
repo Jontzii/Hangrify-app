@@ -12,11 +12,11 @@ struct ContentView: View {
         TabView {
             ListView()
                 .tabItem {
-                    Label("Weekly list", systemImage: "tray.and.arrow.down.fill")
+                    Label("Shopping list", systemImage: "cart.fill")
                 }
             FoodView()
                 .tabItem {
-                    Label("Food list", systemImage: "tray.and.arrow.up.fill")
+                    Label("Food items", systemImage: "fork.knife")
                 }
             ProfileView()
                 .tabItem {
