@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ListView: View {
+struct ShoppingListView: View {
     var body: some View {
         Text("This page will contain a generated weekly shopping list")
     }
@@ -15,6 +15,6 @@ struct ListView: View {
 
 struct ListView_Previews: PreviewProvider {
     static var previews: some View {
-        ListView()
+        ShoppingListView()
     }
 }

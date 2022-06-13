@@ -14,9 +14,10 @@
 		192FF636285713C90067E040 /* HangrifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192FF635285713C90067E040 /* HangrifyTests.swift */; };
 		192FF640285713C90067E040 /* HangrifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192FF63F285713C90067E040 /* HangrifyUITests.swift */; };
 		192FF642285713C90067E040 /* HangrifyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192FF641285713C90067E040 /* HangrifyUITestsLaunchTests.swift */; };
-		1933F33D2857CFE300CA868C /* FoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1933F33C2857CFE300CA868C /* FoodView.swift */; };
-		1933F33F2857D00900CA868C /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1933F33E2857D00900CA868C /* ListView.swift */; };
+		1933F33D2857CFE300CA868C /* RecipesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1933F33C2857CFE300CA868C /* RecipesView.swift */; };
+		1933F33F2857D00900CA868C /* ShoppingListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1933F33E2857D00900CA868C /* ShoppingListView.swift */; };
 		1933F3412857D04900CA868C /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1933F3402857D04900CA868C /* ProfileView.swift */; };
+		1971FE892857DEA400A07E22 /* MealsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1971FE882857DEA400A07E22 /* MealsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,9 +48,10 @@
 		192FF63B285713C90067E040 /* HangrifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HangrifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		192FF63F285713C90067E040 /* HangrifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HangrifyUITests.swift; sourceTree = "<group>"; };
 		192FF641285713C90067E040 /* HangrifyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HangrifyUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		1933F33C2857CFE300CA868C /* FoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodView.swift; sourceTree = "<group>"; };
-		1933F33E2857D00900CA868C /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		1933F33C2857CFE300CA868C /* RecipesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesView.swift; sourceTree = "<group>"; };
+		1933F33E2857D00900CA868C /* ShoppingListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListView.swift; sourceTree = "<group>"; };
 		1933F3402857D04900CA868C /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		1971FE882857DEA400A07E22 /* MealsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,8 +104,9 @@
 			children = (
 				192FF624285713C70067E040 /* HangrifyApp.swift */,
 				192FF626285713C70067E040 /* ContentView.swift */,
-				1933F33C2857CFE300CA868C /* FoodView.swift */,
-				1933F33E2857D00900CA868C /* ListView.swift */,
+				1933F33C2857CFE300CA868C /* RecipesView.swift */,
+				1971FE882857DEA400A07E22 /* MealsView.swift */,
+				1933F33E2857D00900CA868C /* ShoppingListView.swift */,
 				1933F3402857D04900CA868C /* ProfileView.swift */,
 				192FF628285713C90067E040 /* Assets.xcassets */,
 				192FF62A285713C90067E040 /* Preview Content */,
@@ -266,11 +269,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1933F33F2857D00900CA868C /* ListView.swift in Sources */,
-				1933F33D2857CFE300CA868C /* FoodView.swift in Sources */,
+				1933F33F2857D00900CA868C /* ShoppingListView.swift in Sources */,
+				1933F33D2857CFE300CA868C /* RecipesView.swift in Sources */,
 				1933F3412857D04900CA868C /* ProfileView.swift in Sources */,
 				192FF627285713C70067E040 /* ContentView.swift in Sources */,
 				192FF625285713C70067E040 /* HangrifyApp.swift in Sources */,
+				1971FE892857DEA400A07E22 /* MealsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
